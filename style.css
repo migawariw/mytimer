@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+	font-family: 'Hiragino Sans', sans-serif;
+	line-height: 1.7;
+	letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+	font-weight: normal;
+}
+
+h1 {
+	border-bottom: 5px solid lightblue;
+	color: grey;
+}
+
+button {
+	width: 200px;
+	height: 60px;
+	background-color: #1da1f2;
+	color: rgb(251, 249, 249);
+	margin-bottom: 20px;
+	font-size: 25px;
+	border-radius: 10px;
+	box-shadow: 0;
+	cursor: pointer;
+}
+
+.reset {
+	background-color: green;
+}
+
+/* .btn{
+	float:left;
+} */
+body {
+	color: rgb(83, 83, 83);
+	/* background-color: black; */
+}
+
+.btnbox {
+	display: block;
+	text-align: center;
+	/* float: left; */
+}
+
+.time {
+	font-size: 850%;
+	text-align: center;
+	display: block;
+	line-height: 0.4;
+}
+
+/* .contents{
+	width:100%
+ } */
+.dark {
+	background-color: black;
+}
+
+@media (max-width:670px) {
+	.time {
+		font-size: 350%;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	button {
+		width: 70%;
+		text-align: center;
+	}
+
+}
