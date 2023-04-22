@@ -55,10 +55,11 @@ body {
 }
 
 .time {
-	font-size: 850%;
+	font-size: 	850%;
 	text-align: center;
 	display: block;
-	line-height: 0.4;
+	line-height: 0;
+	color: black;
 }
 
 /* .contents{
@@ -72,6 +73,7 @@ body {
 	.time {
 		font-size: 350%;
 		text-align: center;
+	line-height: 0.7;
 	}
 
 	h1 {
@@ -83,4 +85,9 @@ body {
 		text-align: center;
 	}
 
+}
+
+.FullScreen{
+	font-size: 20px;
+	background-color: orange;
 }
